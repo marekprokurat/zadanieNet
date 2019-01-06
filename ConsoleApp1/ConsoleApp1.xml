@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ConsoleApp1</name>
+    </assembly>
+    <members>
+        <member name="T:ConsoleApp1.Program">
+            <summary>
+            This program can:
+            1. Print message if input integer is divideable by 2 (Fizz) or 3 (Buzz) or both (FizzBuzz)
+            2. Create nests subdirectories on PC
+            3. Create files on any nest level in subdirectories 
+            </summary>
+        </member>
+        <member name="M:ConsoleApp1.Program.FizzBuzz(System.Int32)">
+            <summary>
+            This method returns message if input number can be divided by 2 (Fizz) or 3 (Buzz) or both (FizzBuzz)
+            </summary>
+            <param name="i">This is input number</param>
+            <returns>Answer</returns>
+        </member>
+        <member name="M:ConsoleApp1.Program.DeepDive(System.Int32)">
+            <summary>
+            This method is used to creating nest subdirectories
+            </summary>
+            <param name="n">
+            Integer number
+            </param>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleApp1.Program.Main(System.String[])">
+            <summary>
+            Main function
+            </summary>
+            <param name="args"></param>
+        </member>
+    </members>
+</doc>
