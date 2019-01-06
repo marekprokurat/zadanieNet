@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>ConsoleApp1</name>
+        <name>ConsoleApp2</name>
     </assembly>
     <members>
-        <member name="T:ConsoleApp1.Program">
+        <member name="T:ZadanieNET.Program">
             <summary>
             This program can:
             1. Print message if input integer is divideable by 2 (Fizz) or 3 (Buzz) or both (FizzBuzz)
@@ -12,14 +12,14 @@
             3. Create files on any nest level in subdirectories 
             </summary>
         </member>
-        <member name="M:ConsoleApp1.Program.FizzBuzz(System.Int32)">
+        <member name="M:ZadanieNET.Program.FizzBuzz(System.Int32)">
             <summary>
             This method returns message if input number can be divided by 2 (Fizz) or 3 (Buzz) or both (FizzBuzz)
             </summary>
-            <param name="i">This is input number</param>
+            <param name="i">This is input integer</param>
             <returns>Answer</returns>
         </member>
-        <member name="M:ConsoleApp1.Program.DeepDive(System.Int32)">
+        <member name="M:ZadanieNET.Program.DeepDive(System.Int32)">
             <summary>
             This method is used to creating nest subdirectories
             </summary>
@@ -28,7 +28,14 @@
             </param>
             <returns></returns>
         </member>
-        <member name="M:ConsoleApp1.Program.Main(System.String[])">
+        <member name="M:ZadanieNET.Program.DrownItDown(System.Int32)">
+            <summary>
+            This method can create files on any nest level in subdirectories
+            </summary>
+            <param name="n">integer</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZadanieNET.Program.Main(System.String[])">
             <summary>
             Main function
             </summary>
